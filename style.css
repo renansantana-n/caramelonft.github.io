@@ -275,6 +275,7 @@ header a{
     border-radius: 8px;
     transition: 0.2s;
     cursor: pointer;
+    z-index: 999;
 }
 #Whitelist:hover{
     box-shadow: none;
