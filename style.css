@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*FUNFOU - 09/01/22*/
 *{
     margin: 0;
     padding: 0;
@@ -190,6 +192,9 @@ header a{
     align-items: center;
 }
 
+.socials a{
+    z-index: 999;
+}
 .social-links{
     display: flex;
     flex-direction: row;
@@ -233,7 +238,8 @@ header a{
 
 #Medium{
     background:  rgba(0, 0, 0, 0.12);
-    color: #1B1C1E; 
+    color: #1B1C1E;
+    z-index: 999;
 }
 #Medium:hover{
     background: rgba(0, 0, 0, 0.513);
@@ -715,6 +721,11 @@ span{
         border-radius: 4px;
         box-sizing: border-box;
         margin: 5px 0;
+        z-index: 999;
+    }
+
+    .socials a{
+        z-index: 999;
     }
 
     .social-img{
